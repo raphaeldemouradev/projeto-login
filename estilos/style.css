@@ -38,7 +38,7 @@ section {
     border-radius: 20px; /*me: 10, porem 20 mlhor*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
-    transition: width .5s, heigth .5s ;
+    transition: width .3s, heigth .3s ;
     transition-timing-function: ease;
 }
 
@@ -72,9 +72,10 @@ div.formulario > h1 {
 
 div.formulario p {
     padding-bottom: 10px;
+    font-size: 0.9em;
 }
 
-form > div {
+form > div.campo {
     background-color: var(--cor1);
     width: 100%;
     height: auto;
@@ -82,8 +83,8 @@ form > div {
     border-radius: 10px;
 }
 
-form > div > input {
-    width: 75%;
+form > div.campo > input {
+    width: 60%;
     height: 40px;
     font-size: 1em;
     padding: 1px;
@@ -91,10 +92,13 @@ form > div > input {
     border: 1px solid black;
 }
 
-form > div.enviar, div.enviar > input {
+form > div.entrar > input {
     text-align: center;
     background-color: var(--cor2);
-    border: 0;
     color: white;
     cursor: pointer;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
 }
