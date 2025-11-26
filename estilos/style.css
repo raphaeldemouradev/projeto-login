@@ -38,7 +38,7 @@ section {
     border-radius: 20px; /*me: 10, porem 20 mlhor*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
-    transition: .5;
+    transition: width .5s, heigth .5s ;
     transition-timing-function: ease;
 }
 
@@ -96,4 +96,5 @@ form > div.enviar, div.enviar > input {
     background-color: var(--cor2);
     border: 0;
     color: white;
+    cursor: pointer;
 }
